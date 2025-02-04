@@ -1,6 +1,6 @@
 # AlexBugsHunter - QA Portfolio
 
-Hello there! My name is Alexandra, I am a Computer Systems student, and I have completed a manual QA course. My goal with this repository is to demonstrate my manual testing skills, including test cases, bug reports, API testing, and SQL queries.
+Hello there! My name is Alexandra, I am a Computer Systems student, and I have completed a manual QA course. This repository showcases my manual testing skills, including test cases, bug reports, API testing, and SQL queries.
 
 ## Projects
 - **Manual Testing:** Test cases and bug reports for various applications.
