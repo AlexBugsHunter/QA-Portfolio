@@ -11,7 +11,6 @@ Hello there! My name is Alexandra, I am a Computer Systems student, and I have c
 - Manual Testing
 - Postman (API Testing)
 - SQL (MySQL)
-- Git and GitHub
 
 ## How to Explore
 - Check the **Manual Testing** folder for test cases and reports.
