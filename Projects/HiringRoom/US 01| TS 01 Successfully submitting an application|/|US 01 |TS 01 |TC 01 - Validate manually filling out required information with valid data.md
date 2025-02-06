@@ -23,15 +23,16 @@ THEN: No error messages displays
 3. Complete the document field with valid numeric identifier (e.g., 00000000 )
 4. Complete the telephone field with valid phone number (e.g., 1154540101)
 5. Click on "Continue" button 
-6. The user completes the degree field of the education module with valid alphabetic characters (e.g., Chemistry Technician). 
-7. The user completes the description field of the education module with valid paragraph format (e.g., Lorem Ipsum).
-8. The user completes the job position field of the work experience module with valid alphabetic characters (e.g., Technician).
-9. The user completes the company name field of the work experience module with valid alphabetic characters (e.g., Miramar S.A.). 
-10. The user completes the description field of the work experience module with valid paragraph format (e.g., Lorem Ipsum).
-11. The user completes the link field of the social network module with valid URL format (e.g., https://www.linkedin.com/in/alexandra-albornoz/)
-12. The user completes the message field of the work experience module with valid paragraph format (e.g., Lorem Ipsum)
+6. Complete the degree field of the education module with valid alphabetic characters (e.g., Chemistry Technician). 
+7. Complete the description field of the education module with valid paragraph format (e.g., Lorem Ipsum).
+8. Complete the job position field of the work experience module with valid alphabetic characters (e.g., Technician).
+9. Complete the company name field of the work experience module with valid alphabetic characters (e.g., Miramar S.A.). 
+10. Complete the description field of the work experience module with valid paragraph format (e.g., Lorem Ipsum).
+11. Complete the link field of the social network module with valid URL format (e.g., https://www.linkedin.com/in/alexandra-albornoz/)
+12. Complete the message field of the work experience module with valid paragraph format (e.g., Lorem Ipsum)
                
 ### EXPECTED RESULTS ###
+
 No error messages are displayed for any fields. **✓**
 
 ## Status: Passed ✓ ##
