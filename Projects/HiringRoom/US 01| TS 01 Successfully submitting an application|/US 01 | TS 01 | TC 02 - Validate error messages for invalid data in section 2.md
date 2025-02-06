@@ -23,7 +23,7 @@ THEN: Error messages appear
 5. The user complete the telephone field with fewer characters than necessary (e.g., 123)
                
 ### EXPECTED RESULTS ###
-1. Error messages are displayed above name fields for invalid characters       **✓**
+1. Error messages are displayed above name fields for invalid characters      **✓**
 2. Error messages are displayed above email field for invalid email address    **✓** 
 3. Error messages are displayed above document field for invalid characters    **✓** 
 4. Error messages are displayed above telephone field for invalid characters   **✓** 
