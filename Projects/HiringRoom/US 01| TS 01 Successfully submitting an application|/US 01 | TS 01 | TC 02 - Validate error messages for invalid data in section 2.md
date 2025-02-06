@@ -20,14 +20,14 @@ THEN: Error messages appear
 2. The user completes the email field with a invalid email address (e.g., PepaF.com)
 3. The user completes the document field with alphabetic characters (e.g., ABCDE )
 4. The user completes the telephone field with alphabetic characters(e.g., ABCDE)
-5. The user completes the telephone field with fewer characters than necessary (e.g., 123)
+5. The user completes the telephone field with fewer numeric characters than required (9 to 10 digits) (e.g., 123)
                
 ### EXPECTED RESULTS ###
-1. Error messages are displayed above name fields for invalid characters      **✓**
-2. Error messages are displayed above email field for invalid email address    **✓** 
-3. Error messages are displayed above document field for invalid characters    **✓** 
-4. Error messages are displayed above telephone field for invalid characters   **✓** 
-5. Error messages are displayed above telephone field for invalid phone number **✓**
+1. Error messages are displayed below the name fields for invalid characters      **✓**
+2. Error messages are displayed below the email field for invalid email address    **✓** 
+3. Error messages are displayed below the document field for invalid characters    **✓** 
+4. Error messages are displayed below the telephone field for invalid characters   **✓** 
+5. Error messages are displayed below the telephone field indicating that the number of digits is insufficient **✓**
 
 ## Status: FAILED ✘ ##
 
