@@ -1,16 +1,22 @@
 # |TS 01 |TC 01 - Validate manually filling out required information in section 2 with valid data| #
 
-**Scenario**: User want to apply for a job in HiringRoom
+Scenario: User want to apply for a job in HiringRoom
+
 GIVEN: The user is in the section 2 of the application
+
 WHEN: The user completed the required information with valid data
+
 THEN: The user can continue to the section 3 without issues
 
-**PRECONDITIONS:**
+### PRECONDITIONS:###
+
 • The user clicks on "Apply" from a job advertisement on HiringRoom or is redirected from an external website 
+
 • The user selects the option "Manually fill out"
+
 • The user is on the section 2 of the application
 
-**TEST STEPS:**
+### TEST STEPS: ###
 
 1. The user complete the name fields with valid alphabetic characters (e.g., Pepa Flores). 
 2. The user complete the email field with a valid email address (e.g., PepaF@example.com)
@@ -29,8 +35,15 @@ THEN: The user can continue to the section 3 without issues
              •Month of birth (e.g., March)
              •Year of birth (e.g., 1995)
                
-**EXPECTED RESULTS**
-**✓**No error messages are displayed for any fields.
-**✓**The user is able to proceed to section 3 of the application without any issues.
+### EXPECTED RESULTS ###
+No error messages are displayed for any fields.**✓**
 
-**Status: Passed ✓**
+The user is able to proceed to section 3 of the application without any issues.**✓**
+
+## Status: Passed ✓ ##
+
+### Links ###
+
+*Related to: TS 01 Successfully submitting an application*
+
+*Test: US 01 Successfully submitting an application*
