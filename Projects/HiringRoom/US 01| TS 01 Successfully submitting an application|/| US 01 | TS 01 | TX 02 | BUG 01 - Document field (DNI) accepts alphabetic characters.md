@@ -36,6 +36,6 @@ https://github.com/AlexBugsHunter/QA-Portfolio/blob/d845c5a1b3ba5f286aa9a577a712
 
 ### Links ###
 
-*Related to: TX 02 Validate error messages for invalid data in section 2*
+*Related to: TX 02 Validate error messages when input invalid data*
 
 *Blocks: US 01 Successfully submitting an application*
