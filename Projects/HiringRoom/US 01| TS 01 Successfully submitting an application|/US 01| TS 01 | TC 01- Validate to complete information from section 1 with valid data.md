@@ -4,7 +4,7 @@ Scenario: User want to apply for a job in HiringRoom
 
 GIVEN: The user is in the section 2 of the application
 
-WHEN: The user completed the required information with valid data
+WHEN: The user completes the required information with valid data
 
 THEN: The user can continue to the section 3 without issues
 
@@ -18,10 +18,10 @@ THEN: The user can continue to the section 3 without issues
 
 ### TEST STEPS: ###
 
-1. The user complete the name fields with valid alphabetic characters (e.g., Pepa Flores). 
-2. The user complete the email field with a valid email address (e.g., PepaF@example.com)
-3. The user complete the document field with valid numeric identifier (e.g., 00000000 )
-4. The user complete the telephone field with valid phone number (e.g., 1154540101)
+1. The user completes the name fields with valid alphabetic characters (e.g., Pepa Flores). 
+2. The user completes the email field with a valid email address (e.g., PepaF@example.com)
+3. The user completes the document field with valid numeric identifier (e.g., 00000000 )
+4. The user completes the telephone field with valid phone number (e.g., 1154540101)
 5. The user selects valid options from the dropdown menus for the following fields:
 
              •Type of document (e.g., National ID, Passport)
