@@ -1,6 +1,6 @@
 # |TS 01 |TC 01 - Validate manually filling out required information in section 2 with valid data| #
 
-Scenario: User want to apply for a job in HiringRoom
+Scenario: User want to apply for a job in HiringRoom 
 
 GIVEN: The user is in the section 2 of the application
 
@@ -36,9 +36,9 @@ THEN: The user can continue to the section 3 without issues
              •Year of birth (e.g., 1995)
                
 ### EXPECTED RESULTS ###
-No error messages are displayed for any fields.**✓**
+No error messages are displayed for any fields. **✓**
 
-The user is able to proceed to section 3 of the application without any issues.**✓**
+The user is able to proceed to section 3 of the application without any issues. **✓**
 
 ## Status: Passed ✓ ##
 
