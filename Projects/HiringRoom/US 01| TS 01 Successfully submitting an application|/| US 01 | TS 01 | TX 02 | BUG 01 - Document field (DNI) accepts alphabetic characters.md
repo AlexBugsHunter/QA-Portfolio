@@ -30,6 +30,10 @@ OS: Windows 10
 
 Browser: Google Chrome
 
+### Attachment ###
+
+https://github.com/AlexBugsHunter/QA-Portfolio/blob/d845c5a1b3ba5f286aa9a577a7122b0dc6542680/Projects/HiringRoom/Attachment/bug%20tx%2002.png
+
 ### Links ###
 
 *Related to: TX 02 Validate error messages for invalid data in section 2*
