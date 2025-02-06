@@ -1,4 +1,4 @@
-# |TS 01 |TC 02 - Validate error messages for invalid data| #
+# |TS 01 |TC 02 - Validate error messages when input invalid data| #
 
 Scenario: User want to apply for a job in HiringRoom
 
