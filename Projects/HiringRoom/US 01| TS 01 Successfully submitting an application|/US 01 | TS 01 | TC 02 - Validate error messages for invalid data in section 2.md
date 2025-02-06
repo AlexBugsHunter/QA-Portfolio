@@ -4,7 +4,7 @@
 
 GIVEN: The user is in the section 2 of the application
 
-WHEN: The user completed the required information with invalid data
+WHEN: The user completes the required information with invalid data
 
 THEN: Error messages appear
 
@@ -16,11 +16,11 @@ THEN: Error messages appear
 
 ### TEST STEPS: ###
 
-1. The user complete the name fields with no alphabetic characters (e.g., "465#2).
-2. The user complete the email field with a invalid email address (e.g., PepaF.com)
-3. The user complete the document field with alphabetic characters (e.g., ABCDE )
-4. The user complete the telephone field with alphabetic characters(e.g., ABCDE)
-5. The user complete the telephone field with fewer characters than necessary (e.g., 123)
+1. The user completes the name fields with no alphabetic characters (e.g., "465#2).
+2. The user completes the email field with a invalid email address (e.g., PepaF.com)
+3. The user completes the document field with alphabetic characters (e.g., ABCDE )
+4. The user completes the telephone field with alphabetic characters(e.g., ABCDE)
+5. The user completes the telephone field with fewer characters than necessary (e.g., 123)
                
 ### EXPECTED RESULTS ###
 1. Error messages are displayed above name fields for invalid characters      **✓**
