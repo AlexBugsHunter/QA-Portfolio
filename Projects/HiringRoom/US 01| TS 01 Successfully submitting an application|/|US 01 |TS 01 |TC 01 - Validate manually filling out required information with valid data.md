@@ -1,6 +1,6 @@
 # |US 01 |TS 01 |TC 01 - Validate manually filling out required information with valid data| #
 
-Scenario: User want to apply for a job in HiringRoom 
+Scenario: User wants to apply for a job in HiringRoom 
 
 GIVEN: The user is in the application form
 
