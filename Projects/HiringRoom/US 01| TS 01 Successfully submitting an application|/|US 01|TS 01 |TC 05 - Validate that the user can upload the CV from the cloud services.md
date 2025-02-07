@@ -1,14 +1,26 @@
 # |US 01|TS 01 |TC 05 - Validate that the user can upload the CV from the cloud services| #
 
-Scenario 1: User wants to upload resume from cloud services
+Background:
 
 GIVEN: The user is in section 3 of application form
 
-WHEN: The user clicks on "Dropbox" button or "Google Drive" button in the Attachment module
+Scenario 1: User wants to upload a resume from Dropbox
 
-THEN: A pop-up window appears where user can select the email account asociate
+WHEN: The user clicks on "Dropbox" button in the Attachment module
 
-AND: select files on the cloud
+THEN: A pop-up window appears where user can select the Dropbox account
+
+AND: the user select the desired file from Dropbox
+
+AND: The file shows properly uploaded
+
+Scenario 2: User wants to upload a resume from Google Drive
+
+WHEN: The user clicks on "Google Drive" button in the Attachment module
+
+THEN: A pop-up window appears where user can select the Google Drive account
+
+AND: the user select the desired file from Dropbox
 
 AND: The file shows properly uploaded
 
