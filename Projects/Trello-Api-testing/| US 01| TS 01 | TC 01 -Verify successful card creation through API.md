@@ -9,30 +9,39 @@
 ### TEST DATA: ###
 
 Method: POST
+
 Endpoint: https://trello.com/1/card
+
 Authorization: Basic Auth
+
 Params:
-        •key: <user-key> (Trello API key)
-        •token: <user-token> (User's Trello token)
-        •idList: <list-id> (ID of the list where the card will be created)
-        •name: "Happy card" (Card title)
-        •desc: lorem ipsum (Card description)
+
+    •key: <user-key> (Trello API key)
+        
+    •token: <user-token> (User's Trello token)
+        
+    •idList: <list-id> (ID of the list where the card will be created)
+        
+    •name: "Happy card" (Card title)
+        
+    •desc: lorem ipsum (Card description)
 
 ### STEPS TO EXECUTE ON POSTMAN ###
+
 1. Open Postman
 2. Select method POST
 3. Enter the URL for the endpoint: https://api.trello.com/1/cards
 4. Add the following parameters:
    
-     •key: <user-key> (Trello API key)
+       •key: <user-key> (Trello API key)
    
-     •token: <user-token> (User’s Trello token)
+       •token: <user-token> (User’s Trello token)
    
-     •idList: <list-id> (ID of the list where the card will be created)
+       •idList: <list-id> (ID of the list where the card will be created)
    
-     •name: "Happy card" (Card title)
-   
-     •desc: lorem ipsum (Card description)
+       •name: "Happy card" (Card title)
+     
+       •desc: lorem ipsum (Card description)
    
 5. Click on "Send" button
            
