@@ -32,7 +32,7 @@ Rental Date: 08/02/2024
    
                 SELECT customer_id FROM sakila.customer WHERE first_name = 'CHARLOTTE' AND last_name = 'HUNTER';
    
-     •Result should be: 130
+     •Expected Result: 130
    
 3. Verify film's inventory id:
 
@@ -44,7 +44,7 @@ Rental Date: 08/02/2024
                 ON A.film_id = B.film_id
                 WHERE A.title= "BLANKET BEVERLY";
 
-     •Result should be: 130
+     •Expected Result: 367
    
 5. Verify film rental and payment records:
 
@@ -55,6 +55,8 @@ Rental Date: 08/02/2024
                 INNER JOIN sakila.payment B
                 ON A.rental_id = B.rental_id
                 WHERE A.customer_id = 130 AND A.inventory_id = 367;
+   
+      •Expected Result: rental id and payment id exist with correct rental date
    
 ### EXPECTED RESULTS ###
 
