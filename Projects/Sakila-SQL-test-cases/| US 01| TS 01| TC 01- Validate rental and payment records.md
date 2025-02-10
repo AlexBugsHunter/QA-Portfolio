@@ -58,13 +58,13 @@ Rental Date: 08/02/2024
    
 ### EXPECTED RESULTS ###
 
-The rental record exists in the rental table with the correct date and time. ** ✓ **
+The rental record exists in the rental table with the correct date and time.      **✓**
 
-The customer_id and inventory_id match the customer and movie data. ** ✓ **
+The customer_id and inventory_id match the customer and movie data.      **✓**
 
-A payment record corresponding to the rental has been generated in the payment table. ** ✓ **
+A payment record corresponding to the rental has been generated in the payment table.      **✓**
 
-The relationships between tables (rental, payment, inventory, customer) are consistent. ** ✓ **
+The relationships between tables (rental, payment, inventory, customer) are consistent.      **✓**
 
 ### Status: Passed ✓ ###
 
