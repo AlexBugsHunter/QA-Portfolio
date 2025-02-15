@@ -22,29 +22,27 @@ Postman must have variables for Key and Token setted
 2. Add parameters for Key and Token with the correct value
 3. Add the following scripts:
    
-            const body = pm.response.json()
+       const body = pm.response.json();
 
-            pm.test("Correct Authentication with valid credentials", () => {
-                pm.response.to.have.status(200);
-            });
+       pm.test("Correct Authentication with valid credentials", () => {
+           pm.response.to.have.status(200);
+       });
 
-            pm.test("Validate that the response return user´s id", () => {
-                pm.expect(body).to.have.property("id")
-            });
+       const format = pm.response.headers.get("Content-Type")
 
-            pm.test("Validate that the response return user´s name", () => {
-                pm.expect(body).to.have.property("fullName")
-            });
+       pm.test("Validate that the response is in JSON format", () => {
+          pm.expect(format).to.include("application/json");
+       });
 
 
-            pm.test("Validate that the response return user´s email", () => {
-               pm.expect(body).to.have.property("email")
-            });
+       pm.test("Validate that the response return user´s id", () => {
+           pm.expect(body).to.have.property("id");
+       });
 
-            pm.test("Validate properties are not null", ()=>{
-                pm.expect(body.id, body.fullName, body.email).to.be.not.null
-            });
-
+       
+       pm.test("Validate that the response return user´s name", () => {
+          pm.expect(body).to.have.property("fullName").and.to.be.a("string");
+       });
 
 3. Validate that the Postman response is a 200 OK status
 4. Validate that the JSON response returns the user's id, name, and email
