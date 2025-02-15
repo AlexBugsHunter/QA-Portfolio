@@ -31,18 +31,28 @@ Postman must have variables for Key and Token setted
        const format = pm.response.headers.get("Content-Type")
 
        pm.test("Validate that the response is in JSON format", () => {
-          pm.expect(format).to.include("application/json");
+           pm.expect(format).to.include("application/json");
        });
-
 
        pm.test("Validate that the response return user´s id", () => {
            pm.expect(body).to.have.property("id");
        });
 
-       
        pm.test("Validate that the response return user´s name", () => {
-          pm.expect(body).to.have.property("fullName").and.to.be.a("string");
+           pm.expect(body).to.have.property("fullName").and.to.be.a("string");
        });
+
+
+       pm.test("Validate that the response return user´s email", () => {
+         pm.expect(body).to.have.property("email").and.to.be.a("string");
+       });
+
+       pm.test("Validate properties are not null", ()=>{
+           pm.expect(body.id).to.not.be.null;
+           pm.expect(body.fullName).to.not.be.null;
+           pm.expect(body.email).to.not.be.null;
+       });
+
 
 3. Validate that the Postman response is a 200 OK status
 4. Validate that the JSON response returns the user's id, name, and email
