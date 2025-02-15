@@ -6,7 +6,7 @@
 
 Trello's API key and token must be created
 
-Postman must have variables for Key and Token setted
+Postman must have variables for Key and Token settled
 
 ### STEPS IN POSTMAN ###
 
