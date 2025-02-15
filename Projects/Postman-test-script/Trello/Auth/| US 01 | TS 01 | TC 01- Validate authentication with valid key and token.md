@@ -60,3 +60,5 @@ The Json response returns user data (name, email, id) with the correct propertie
 Related to: TS 01 Authentication
 
 Test: US 01 Successfully authentication for Postman API testing
+
+https://github.com/AlexBugsHunter/QA-Portfolio/blob/QA-Portfolio/Projects/Postman-test-script/Trello/Attachment/postman%20test%201%20.png
