@@ -45,10 +45,10 @@ Postman must have variables for Key and Token setted
            pm.expect(body.email).to.not.be.null;
        });
 
-
-3. Validate that the Postman response is a 200 OK status
-4. Validate the response is in json format
-5. Validate that the JSON response returns the user's id, name, and email
+3. Send request
+4. Validate that the Postman response is a 200 OK status
+5. Validate the response is in json format
+6. Validate that the JSON response returns the user's id, name, and email
    
 ### EXPECTED RESULTS ###
 
