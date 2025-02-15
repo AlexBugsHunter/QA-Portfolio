@@ -2,14 +2,6 @@
 
 # | US 01 | TS 01 | TC 01- Validate authentication with valid key and token | #
 
-GIVEN: The user is logged into the Trello application via Atlassian
-
-AND: The user has created API key and token from https://trello.com/power-ups/admin
-
-WHEN: The user add a new GET request in Postman for the endpoint: *https://api.trello.com/1/members/me*
-
-THEN: The request return correct user data (Name, email, id)
-
 ### PRECONDITIONS ###
 
 Trello's API key and token must be created
