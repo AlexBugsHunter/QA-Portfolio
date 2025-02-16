@@ -29,22 +29,27 @@ Postman must have variables for Key and Token setted
 
        let boardID = pm.collectionVariables.set("boardID", body.id);
 
-       pm.test("Validate that the collection variable 'boardID' has been created for the next test cases", () => {
+       pm.test("Validate that the collection variable 'boardID' has been stored for the next test cases", () => {
            pm.expect(boardID).to.be.not.null
        });
 
 5. Send request
-6. Validate that the board have been properly created
-7. Validate the response is in json format
-8. Validate that the collection variable 'boardID' has been created for the next test cases
    
   ### EXPECTED RESULTS ###
 
 The POST request returns a 200 OK status      **✓**
 
-Board id has been properly generated      **✓**
+Board has been properly created      **✓**
 
-The variable "boardID" has been set for the next test cases      **✓**
+Response is in json format      **✓**
+
+Board name in the responses matched the requested name´s value      **✓**
+
+Board ID has been properly generated      **✓**
+
+Collection variable "BoardID" has been stored for next test cases      **✓**
+
+All test scripts passed      **✓**
 
 ### Links ###
 
@@ -52,4 +57,4 @@ Related to: TS 01 Board CRUD
 
 Test: US 02 Board CRUD 
 
-https://github.com/AlexBugsHunter/QA-Portfolio/blob/QA-Portfolio/Projects/Postman-test-script/Trello/Attachment/postman%20test%202.png
+https://github.com/AlexBugsHunter/QA-Portfolio/blob/QA-Portfolio/Projects/Postman-test-script/Trello/Attachment/postman%20test%201.2.png
