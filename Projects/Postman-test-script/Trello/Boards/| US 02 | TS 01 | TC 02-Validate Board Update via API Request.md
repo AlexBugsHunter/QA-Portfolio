@@ -27,7 +27,7 @@ BoardID collection variable must be set
            pm.expect(pm.response.headers.get("Content-Type")).to.include("application/json");
        });
 
-       pm.test("Validate that the board´s name has been changed", ()=>{
+       pm.test("Validate that the board´s name has been changed to 1.1 Board", ()=>{
            pm.expect(body.name).to.be.eql("1.1 Board").and.to.be.a("string")
        });
        
