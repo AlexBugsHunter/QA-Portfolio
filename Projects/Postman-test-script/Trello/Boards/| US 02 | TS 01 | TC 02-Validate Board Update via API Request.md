@@ -58,3 +58,4 @@ Related to: TS 01 Board CRUD
 
 Test: US 02 Board CRUD 
 
+https://github.com/AlexBugsHunter/QA-Portfolio/blob/QA-Portfolio/Projects/Postman-test-script/Trello/Attachment/postman%20test%203.png
